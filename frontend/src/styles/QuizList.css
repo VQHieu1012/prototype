@@ -1,0 +1,27 @@
+.quiz-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-list h2 {
+  margin-bottom: 10px;
+  color: #343541;
+}
+
+.results-count {
+  color: #666;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.quiz-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quiz-list-empty {
+  text-align: center;
+  padding: 40px 0;
+  color: #666;
+}

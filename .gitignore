@@ -1,0 +1,47 @@
+# Node.js / React Frontend
+/frontend/node_modules
+/frontend/build
+/frontend/coverage
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Python Backend
+/backend/__pycache__/
+/backend/app/__pycache__/
+/backend/.pytest_cache/
+/backend/*.py[cod]
+/backend/*$py.class
+/backend/*.so
+/backend/.Python
+/backend/env/
+/backend/venv/
+/backend/.env
+/backend/*.log
+/backend/instance/
+/backend/.webassets-cache
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Assets that might be large or generated
+/frontend/src/assets/*.psd
+/frontend/src/assets/*.ai
+/frontend/src/assets/temp/
+
+# Database
+*.db
+*.sqlite3
