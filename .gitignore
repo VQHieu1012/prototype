@@ -2,7 +2,6 @@
 /frontend/node_modules
 /frontend/build
 /frontend/coverage
-/frontend/.env
 /frontend/.env.local
 /frontend/.env.development.local
 /frontend/.env.test.local
@@ -21,7 +20,6 @@
 /backend/.Python
 /backend/env/
 /backend/venv/
-/backend/.env
 /backend/*.log
 /backend/instance/
 /backend/.webassets-cache

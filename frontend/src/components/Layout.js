@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/Layout.css';
-import logoImage from '../assets/logo.png'; // Add this import
 
+// Use a logo URL that definitely exists or handle the case where it might not exist
 const Layout = ({ children }) => {
   return (
     <div className="layout">
       <header className="header">
         <div className="container">
           <div className="logo">
-            <img src={logoImage} alt="Quiz Search Logo" className="logo-image" />
+            {/* Use a text-based logo with an optional image if available */}
+            <div className="logo-icon">Q</div>
             <h1 className="logo-text">Quiz Search</h1>
           </div>
         </div>

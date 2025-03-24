@@ -17,6 +17,20 @@
   gap: 10px;
 }
 
+/* Text-based logo icon as a fallback */
+.logo-icon {
+  height: 40px;
+  width: 40px;
+  background-color: #10a37f;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .logo-image {
   height: 40px;
   width: auto;
